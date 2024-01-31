@@ -7,17 +7,21 @@
 
   $error_message = '';
 
-  // Slide 66
   // validate investment
   if( $investment === FALSE) {
     $error_message = "Investment must be a valid number.";
   }
+  // TODO include additional field validation from Slides 65 and 66
 
-  // TODO include additional field validation
-
+  // Slide 67
   if($error_message == '') {
     include("future_value_form.php");
     exit();
   }
 
   // calculate the future value
+  // TODO Insert calculation and formatting from Slide 67
+?>
+<html>
+  <!-- TODO Insert html to display values from Slide 68
+</html>
